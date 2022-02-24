@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registration-Form</title>
+    <!--External CSS Link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Registration-Form</h3>
+        </div>
+        <form class="form" id="form">
+            <div class="form-content">
+                <label>Full Name</label>
+                <input type="text" name="" id="name" placeholder="Enter your name" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>Username</label>
+                <input type="text" name="" id="username" placeholder="Enter your username" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>Email</label>
+                <input type="email" name="" id="email" placeholder="Enter your email" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content-1">
+                <label>Date of Birth</label>
+                <input type="date" name="" id="dob" placeholder="" required autocomplete="off">
+               
+            </div>
+
+            <div class="form-content">
+                <label>Password</label>
+                <input type="password" name="" id="password" placeholder="Enter your password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>Phone</label>
+                <input type="number" name="" id="phone" placeholder="Enter phone number" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>Confirm Password</label>
+                <input type="password" name="" id="cpassword" placeholder="Confirm-password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>City</label>
+                <input type="text" name="" id="city" placeholder="City/Town" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>State</label>
+                <input type="text" name="" id="state" placeholder="Enter your State" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+            <div class="form-content">
+                <label>Country</label>
+                <input type="text" name="" id="country" placeholder="Enter your Contry" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>ErrorMsg</small>
+            </div>
+           
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Other</span>
+                    </label>
+                   <!-- <small>ErrorMsg</small> -->
+                </div>
+                
+            </div>
+
+            <input type="submit" value="Register" class="button">
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
